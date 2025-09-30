@@ -1,7 +1,10 @@
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header'
+
+ConstApp = () => {
   return (
     <div>
-    <h1> Image gallery </h1>
+       <Header />
     </div>
   );
 }
